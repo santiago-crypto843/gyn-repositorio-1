@@ -1,0 +1,104 @@
+/* ==========================================
+   ESTILOS GENERALES Y VARIABLES (COMPARTIDO)
+   ========================================== */
+:root {
+    --primary-color: #ff3e3e;
+    --dark-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #ffffff;
+    --text-muted: #b0b0b0;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+}
+
+body {
+    background-color: var(--dark-color);
+    background-image: url("../imagenes2/images2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+;
+
+    {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header & Navegación Global */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 5%;
+    background-color: #000;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--primary-color);
+}
+
+/* Botones Estándar */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #e03232;
+    transform: translateY(-2px);
+}
+
+/* Footer Global */
+footer {
+    margin-top: auto;
+    background-color: #000;
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--text-muted);
+    border-top: 1px solid #333;
+}
