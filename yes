@@ -1,0 +1,17 @@
+[33mcommit a44117bd9015b7dc404900f035a3eea892fb75ea[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/footer[m[33m, [m[1;32mheader[m[33m, [m[1;32mfooter[m[33m)[m
+Author: KEVIN CHAGUENDO <chaguendokevinsantiago@gmail.com>
+Date:   Fri Sep 25 21:08:27 2026 -0500
+
+    modificacion styles.css
+
+[33mcommit 5a10d6c85ca2120231487df40db6908c3dcd0615[m
+Author: KEVIN CHAGUENDO <chaguendokevinsantiago@gmail.com>
+Date:   Thu Sep 24 20:07:52 2026 -0500
+
+    chore estructura inicial del modulo home con index.html y styles.css
+
+[33mcommit 0848df95eb9d84ed02f8301346cdff55ac7328c7[m
+Author: KEVIN CHAGUENDO <chaguendokevinsantiago@gmail.com>
+Date:   Thu Sep 24 19:53:25 2026 -0500
+
+    chore:estructura inicial del modulo home con index.html y styles.css
